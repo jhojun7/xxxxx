@@ -1,0 +1,16 @@
+.movietitle { /* movietile이란 클래스 만들기 */
+    display: block; /* 블록으로 변환 */
+    text-decoration: none; /* 밑줄삭제 */
+    color:grey;
+    border: 1px solid gray; /* 테두리상자 회색 1픽셀 */
+    border-radius: 5px; /* 둥글게 */
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.movietitle:hover { /* 마우스 가져대면 모양바뀌는hover */
+    color:white;
+    background: pink;
+    border: 1px solid white; /* 테두리상자 흰색 1픽셀 */
+}
