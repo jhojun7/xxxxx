@@ -1,0 +1,35 @@
+.movie {
+    display: flex;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.movieDetail{
+    flex: 9;
+    margin: 0px 10px;
+}
+
+.movieDetail>.movieTitle {
+    margin-bottom: 5px;
+}
+
+.movieImage{
+    flex: 1;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.good{
+    color: blue;
+    font-weight: bold;
+}
+
+.soso{
+    color: green;
+}
+
+.bad{
+    color: red;
+}
